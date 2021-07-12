@@ -1,0 +1,14 @@
+{
+    "type": "postgres",
+    "host": "localhost",
+    "port": 5432,
+    "username": "postgres",
+    "password": "2020",
+    "database": "siga_truck",
+    "synchronize": true,
+    "logging": "error",
+    "entities": ["src/**/motorista.entity.ts"],
+    "migrations": [
+       "src/migration/**/*.ts"
+    ]
+ }
